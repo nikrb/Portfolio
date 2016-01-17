@@ -1,0 +1,301 @@
+font-family: 'Shadows Into Light',
+cursive;
+html {
+  height: 100%;
+}
+
+body {
+  background: #E2E4E7;
+  padding: 0;
+  text-align: center;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.navbar-center {
+  display: inline-block;
+}
+
+.navbar-center .btn {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  width: 100%;
+  float: left;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 70px;
+  letter-spacing: -4px;
+  font-weight: 100;
+}
+
+h1 span {
+  font-size: 26px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+  color: #6D461D;
+  border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  padding: 3px 10px;
+}
+
+h2 {
+  color: #6D461D;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pointer {
+  color: #9b59b6;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main h1 {
+  padding: 150px 50px;
+  float: left;
+  width: 100%;
+  font-size: 45px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-weight: 100;
+  color: white;
+  margin: 0;
+}
+
+.reload.bell {
+  font-size: 12px;
+  padding: 20px;
+  width: 45px;
+  text-align: center;
+  height: 47px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+.reload.bell #notification {
+  font-size: 25px;
+  line-height: 140%;
+}
+
+.reload {
+  display: inline-block;
+  border: 4px solid #A2261E;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: #CC3126;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0.7em;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  line-height: 140%;
+  font-size: 17px;
+  font-family: open sans;
+  font-weight: bold;
+}
+
+.reload:hover {
+  background: #444;
+}
+
+.clear {
+  width: auto;
+}
+
+.credit {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 410px;
+  clear: both;
+}
+
+.credit a {
+  color: #888;
+  /* rgba(0, 0, 0, 0.85); */
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.credit a:hover {
+  color: #ccc;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+}
+
+.main section .page_container {
+  position: relative;
+  top: 25%;
+  margin: 0 auto 0;
+  max-width: 950px;
+  z-index: 3;
+}
+
+.main section {
+  overflow: hidden;
+}
+
+.main section h1 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 70px;
+  font-family: 'Lobster', serif;
+  text-shadow: 4px 4px 4px #000;
+  color: green;
+}
+
+.main section h2 {
+  text-align: center;
+  line-height: 160%;
+  font-family: 'Indie Flower', serif;
+  font-size: 32px;
+  text-shadow: 2px 2px 2px #fff;
+  color: #1111ff;
+}
+
+.main section .page_container {
+  clear: both;
+  float: center;
+  text-align: center;
+}
+
+ul.nav a:hover { 
+  background-color: lightgray !important; 
+}
+ul.nav a.btn:hover { 
+  background-color: blue !important; 
+}
+ul.nav a:focus {
+  outline: none;
+}
+
+.main section.page1 {
+  background: url('http://i919.photobucket.com/albums/ad36/johnddmobile/Photo%20Room-free/987de1b1.jpg');
+  background-size: cover;
+}
+
+.main section.page2 {
+  background: #555557 url('http://www.psdgraphics.com/file/red-grunge-background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.main section.page2 h3 {
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  text-shadow: 4px 4px 4px #000;
+}
+
+.btn-primary:hover {
+  background: #55c;
+}
+
+.main section.page3 {
+  background: url('http://orig01.deviantart.net/2dfc/f/2009/003/5/a/red_background_by_xeeshan_ch.jpg') no-repeat;
+  background-size: cover;
+}
+
+.main section.page3 .page_container {
+  top: 15%;
+}
+
+.main section.page4 {
+  background: url('http://www.psdgraphics.com/file/red-halftone-background.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+body.disabled-onepage-scroll .onepage-wrapper section {
+  min-height: 100%;
+  height: auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container,
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.disabled-onepage-scroll section .page_container h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+body.disabled-onepage-scroll section .page_container h2,
+body.disabled-onepage-scroll section .page_container .credit,
+body.disabled-onepage-scroll section .page_container .btns {
+  text-align: center;
+  width: 100%;
+}
+
+body.disabled-onepage-scroll .main section.page1 > img {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+}
+
+body.disabled-onepage-scroll .main section > img {
+  position: relative;
+  max-width: 80%;
+  bottom: 0;
+}
+
+body.disabled-onepage-scroll code {
+  width: 95%;
+  margin: 0 auto 25px;
+  float: none;
+  overflow: hidden;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
